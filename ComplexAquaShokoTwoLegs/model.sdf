@@ -942,7 +942,6 @@
       </physics>
     </joint>
 
-
   <plugin name='joint_control' filename='libaquashoko_gazebo_joint_control.so'/>
 
    <plugin name="BuoyancyPlugin" filename="libBuoyancyPlugin.so">
