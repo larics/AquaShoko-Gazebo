@@ -13,20 +13,20 @@
 float ProJaw = 10.0; //proportional control
 float InteJaw = 0.2; //integral control
 float DereJaw = 2.5; //derivative control
-float iMaxYaw = 10.0; 
+float iMaxYaw = 8.0; 
 
 
 //PID values Pitch #1
 float ProPitch1 = 2.0; //proportional control
 float IntePitch1 = 1.0; //integral control
 float DerePitch1 = 0.25; //derivative control
-float iMaxPitch1 = 10.0; 
+float iMaxPitch1 = 8.0; 
 
 //PID values Pitch #2
 float ProPitch2 = 2.0; //250; //proportional control
 float IntePitch2 = 1.0; //integral control
 float DerePitch2 = 0.1; //derivative control
-float iMaxPitch2 = 10.0; 
+float iMaxPitch2 = 8.0; 
 
 aquashoko_pid_t yaw1_pid;
 aquashoko_pid_t pitch2_pid;
@@ -231,7 +231,7 @@ namespace gazebo
 			}
 		}
 	 
-	    setJointsPosition(3000);
+	    setJointsPosition(40);
 
 	    printJointPositions();
 
